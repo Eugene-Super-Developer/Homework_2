@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+    max-width: 960px;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+.logo {
+    display: inline-block;
+    transition: 0.3s;
+    display: inline-block;
+    margin-top: 12px;
+}
+.logo:hover {
+    transform: rotate(360deg);
+}
+
+p last-of-type:hover {
+    opacity: 0;
+}
+
+ p:nth-child(2n) {
+ }
+
+ .progresbar {
+     width: 200px;
+     height: 50px;
+     border: solid 2px #00a651;
+     background-color: orange;
+ }
+
+ .progresbar:before {
+     display: inline-block;
+     content:"";
+     height: 100%;
+     width: 33%;
+         background-color: green;
+ }
+
+.progresbar:after {
+    display: inline-block;
+    content: "";
+    height: 100%;
+    width: 33%;
+    margin-left: 34%;
+    background-color: red;
+}
